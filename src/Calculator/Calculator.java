@@ -58,10 +58,10 @@ public class Calculator {
 //        System.out.println(arr1[0] + " --> " + anew);
 //        System.out.println(arr1[2] + " --> " + bnew);
 
-        if (arr1[1].equals("/") && ((anew % bnew) != 0)) {
-            System.err.println("The result is out of supported values (integer expected).");
-            return;
-        }
+//        if (arr1[1].equals("/") && ((anew % bnew) != 0)) {
+//            System.err.println("The result is out of supported values (integer expected).");
+//            return;
+//        }
 
         if (atype.equals("roman") && arr1[1].equals("-") && ((anew - bnew) < 1)) {
             System.err.println("The result is out of supported values (positive integer expected).");
